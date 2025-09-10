@@ -1,0 +1,76 @@
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.widget-container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.quote-card {
+  background: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.quote-card.fade-out {
+  opacity: 0;
+}
+
+#quote-text {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
+
+#quote-author {
+  font-weight: bold;
+  color: #34495e;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(41, 128, 185, 0.5);
+}
+
+.quote-icon {
+  font-size: 2rem;
+  vertical-align: top;
+  color: #7f8c8d;
+  margin-right: 0.4rem;
+  line-height: 1;
+}
