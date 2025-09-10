@@ -1,6 +1,6 @@
 # Legal Quote of the Day
 
-A simple, responsive widget that displays a curated legal quote each day. Built with HTML, CSS, and JavaScript, this project is designed to inspire with timeless wisdom from the legal field.
+A simple widget that displays a curated legal quote each day. Built with HTML, CSS, and JavaScript, this project is designed to inspire with timeless wisdom from within the legal field.
 
 ## Features
 - Displays a new legal quote on each page load  
@@ -14,8 +14,7 @@ A simple, responsive widget that displays a curated legal quote each day. Built 
 
 ## Future Improvements
 - Add quote categories  
-- Integrate with external APIs for dynamic sourcing (Like a Court API to fetch case updates or Quote API to display daily legal quotes)  
-- Include author bios and sources  
+- Integrate with external APIs (e.g., a Court API for case updates or a Quote API for daily legal quotes)  
 
 ## Author
 Brian Nyale – Legal-tech enthusiast.  
